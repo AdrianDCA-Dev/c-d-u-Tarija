@@ -110,7 +110,7 @@
 
             <header class="section-header">
                 <h3>SOBRE NOSOTROS</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Dr. Danilo Jurado Vallejo, Soy una persona que ama su trabajo y por lo tanto dedica toda su energía a realizarlo con el mayor cuidado y atención a los detalles, me enorgullece decir que mis pacientes confían en mi y que llegué a este punto de mi vida gracias a ellos y esa misma confianza que han depositado en mi persona.</p>
             </header>
 
             <div class="row about-cols">
@@ -118,7 +118,7 @@
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
                         <div class="img">
-                            <img src="assets/img/about-mission.jpg" alt="" class="img-fluid">
+                            <img src="template/assets/img/about-mission.jpg" alt="" class="img-fluid">
                             <div class="icon"><i class="bi bi-bar-chart"></i></div>
                         </div>
                         <h2 class="title"><a href="#">Nuestra misión</a></h2>
@@ -131,10 +131,10 @@
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="about-col">
                         <div class="img">
-                            <img src="assets/img/about-plan.jpg" alt="" class="img-fluid">
+                            <img src="template/assets/img/about-plan.jpg" alt="" class="img-fluid">
                             <div class="icon"><i class="bi bi-brightness-high"></i></div>
                         </div>
-                        <h2 class="title"><a href="#">Nuestro plan</a></h2>
+                        <h2 class="title"><a href="#">Nuestro pl</a></h2>
                         <p>
                             Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                         </p>
@@ -144,7 +144,7 @@
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="about-col">
                         <div class="img">
-                            <img src="assets/img/about-vision.jpg" alt="" class="img-fluid">
+                            <img src="template/assets/img/about-vision.jpg" alt="" class="img-fluid">
                             <div class="icon"><i class="bi bi-calendar4-week"></i></div>
                         </div>
                         <h2 class="title"><a href="#">Nuestra visión</a></h2>
@@ -205,6 +205,94 @@
 
         </div>
     </section><!-- End Services Section -->
+
+
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills">
+        <div class="container" data-aos="fade-up">
+
+            <header class="section-header">
+                <h3>Actualización Continua</h3>
+                <p>La medicina siempre evoluciona, por ello para mi es importante mantenerme actualizado con las técnicas más novedosas y seguras. Esto se traduce a una atención de primer mundo.</p>
+            </header>
+
+            <div class="skills-content">
+
+                <div class="progress">
+                    <div class="progress-bar bg-gradient-blue" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <span class="skill">UROLOGÍA <i class="val">100%</i></span>
+                    </div>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar bg-gradient-blue" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <span class="skill">CIRUGÍA LAPAROSCÓPICA <i class="val">100%</i></span>
+                    </div>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar bg-gradient-blue" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <span class="skill">CIRUGÍA MÍNIMA INVASIÓN <i class="val">100%</i></span>
+                    </div>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar bg-gradient-blue" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <span class="skill">ONCOCIRUGÍA <i class="val">100%</i></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Skills Section -->
+    <!-- ======= Facts Section ======= -->
+    <section id="facts">
+        <div class="container" data-aos="fade-up">
+
+            <header class="section-header">
+                <h3>Certificado por las Mejores Sociedades de Urología</h3>
+                <p>Es importante contar con la seguridad de que la persona que te va a atender está calificada para hacerlo. Mis certificaciones y reconocimientos te aseguran que recibirás la mejor atención posible, sin ponerte en riesgo.</p>
+            </header>
+
+            <div class="row counters">
+
+                <div class="col-lg-3 col-6 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Años de Experiencia</p>
+                </div>
+
+                <div class="col-lg-3 col-6 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Pacientes Felices</p>
+                </div>
+
+                <div class="col-lg-3 col-6 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Artículos Publicadost</p>
+                </div>
+
+                <div class="col-lg-3 col-6 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Reconocimientos</p>
+                </div>
+
+            </div>
+
+          {{--  <div class="facts-img row">
+                <div class="col-lg-6 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Reconocimientos</p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="template/assets/img/facts-img.png" alt="" class="img-fluid">
+                </div>
+
+            </div>--}}
+
+        </div>
+    </section><!-- End Facts Section -->
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="section-bg">
         <div class="container" data-aos="fade-up">
@@ -252,65 +340,65 @@
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
+                            <img src="template/assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
                             <h3>Saul Goodman</h3>
                             <h4>Ceo &amp; Founder</h4>
                             <p>
-                                <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                                <img src="template/assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
                                 Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                                <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+                                <img src="template/assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                             </p>
                         </div>
                     </div><!-- End testimonial item -->
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="assets/img/testimonial-2.jpg" class="testimonial-img" alt="">
+                            <img src="template/assets/img/testimonial-2.jpg" class="testimonial-img" alt="">
                             <h3>Sara Wilsson</h3>
                             <h4>Designer</h4>
                             <p>
-                                <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                                <img src="template/assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
                                 Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                                <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+                                <img src="template/assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                             </p>
                         </div>
                     </div><!-- End testimonial item -->
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="assets/img/testimonial-3.jpg" class="testimonial-img" alt="">
+                            <img src="template/assets/img/testimonial-3.jpg" class="testimonial-img" alt="">
                             <h3>Jena Karlis</h3>
                             <h4>Store Owner</h4>
                             <p>
-                                <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                                <img src="template/assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
                                 Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                                <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+                                <img src="template/assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                             </p>
                         </div>
                     </div><!-- End testimonial item -->
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="assets/img/testimonial-4.jpg" class="testimonial-img" alt="">
+                            <img src="template/assets/img/testimonial-4.jpg" class="testimonial-img" alt="">
                             <h3>Matt Brandon</h3>
                             <h4>Freelancer</h4>
                             <p>
-                                <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                                <img src="template/assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
                                 Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                                <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+                                <img src="template/assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                             </p>
                         </div>
                     </div><!-- End testimonial item -->
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="assets/img/testimonial-5.jpg" class="testimonial-img" alt="">
+                            <img src="template/assets/img/testimonial-5.jpg" class="testimonial-img" alt="">
                             <h3>John Larson</h3>
                             <h4>Entrepreneur</h4>
                             <p>
-                                <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                                <img src="template/assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
                                 Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                                <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+                                <img src="template/assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                             </p>
                         </div>
                     </div><!-- End testimonial item -->
@@ -326,15 +414,15 @@
     <section id="team">
         <div class="container" data-aos="fade-up">
             <div class="section-header">
-                <h3>Team</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                <h3>Equipo</h3>
+                <p>Nuestros Mejores Especialistas</p>
             </div>
 
             <div class="row">
 
                 <div class="col-lg-3 col-md-6">
                     <div class="member" data-aos="fade-up" data-aos-delay="100">
-                        <img src="assets/img/team-1.jpg" class="img-fluid" alt="">
+                        <img src="template/assets/img/team-1.jpg" class="img-fluid" alt="">
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>Walter White</h4>
@@ -352,7 +440,7 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="member" data-aos="fade-up" data-aos-delay="200">
-                        <img src="assets/img/team-2.jpg" class="img-fluid" alt="">
+                        <img src="template/assets/img/team-2.jpg" class="img-fluid" alt="">
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>Sarah Jhonson</h4>
@@ -370,7 +458,7 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="member" data-aos="fade-up" data-aos-delay="300">
-                        <img src="assets/img/team-3.jpg" class="img-fluid" alt="">
+                        <img src="template/assets/img/team-3.jpg" class="img-fluid" alt="">
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>William Anderson</h4>
@@ -388,7 +476,7 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="member" data-aos="fade-up" data-aos-delay="400">
-                        <img src="assets/img/team-4.jpg" class="img-fluid" alt="">
+                        <img src="template/assets/img/team-4.jpg" class="img-fluid" alt="">
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>Amanda Jepson</h4>
@@ -415,7 +503,8 @@
 
             <div class="section-header">
                 <h3>CONTÁCTENOS</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                <p>Recibirás una confirmación en un máximo de 24 horas.
+                    Emergencia? Llama o envía un WhatsApp al Cel. 3315202386 </p>
             </div>
 
             <div class="row contact-info">
@@ -423,15 +512,15 @@
                 <div class="col-md-4">
                     <div class="contact-address">
                         <i class="bi bi-geo-alt"></i>
-                        <h3>Address</h3>
-                        <address>A108 Adam Street, NY 535022, USA</address>
+                        <h3>Dirección</h3>
+                        <address>Av. Guadalquivir #1162 Tarija - Bolivia</address>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="contact-phone">
                         <i class="bi bi-phone"></i>
-                        <h3>Phone Number</h3>
+                        <h3>NÚMERO DE TELÉFONO</h3>
                         <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
                     </div>
                 </div>
@@ -450,22 +539,22 @@
                 <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                     <div class="row">
                         <div class="form-group col-md-6">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
                         </div>
                         <div class="form-group col-md-6">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo electrónico" required>
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Objeto" required>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                        <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
                     </div>
                     <div class="my-3">
-                        <div class="loading">Loading</div>
+                        <div class="loading">Cargando</div>
                         <div class="error-message"></div>
-                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                        <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
                     </div>
                     <div class="text-center"><button type="submit">Enviar mensaje</button></div>
                 </form>
@@ -532,16 +621,10 @@
 
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+            &copy; Copyright <strong>Centro Medico</strong>. All Rights Reserved
         </div>
         <div class="credits">
-            <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-          -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
         </div>
     </div>
 </footer><!-- End Footer -->
