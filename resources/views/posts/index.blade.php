@@ -13,14 +13,19 @@
                     </a>
                     <div class="bg-white flex flex-col justify-start p-6">
                         @if($post->category != null)
-                        <a href="{{route('posts.category', $post->category)}}" class="text-blue-700 text-sm font-bold uppercase pb-4">{{$post->category->name}}</a>
+                            <a href="{{route('posts.category', $post->category)}}" class="text-blue-700 text-sm font-bold uppercase pb-4">{{$post->category->name}}</a>
                         @endif
                         <a href="{{route('posts.show', $post)}}" class="text-3xl font-bold hover:text-gray-700 pb-4">{{$post->name}}</a>
-                        <p href="#" class="text-sm pb-3">
-                            By <a href="#" class="font-semibold hover:text-gray-800">David Grzyb</a>, Published on April 25th, 2020
+                        <div class="pb-2">
+                            @foreach($post->tags as $tag)
+                                <a href="{{route('posts.tag', $tag)}}" class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm text-gray-700 mr-2">{{$tag->name}}</a>
+                            @endforeach
+                        </div>
+                        <p href="#" class="text-sm pb-2">
+                            Por <a href="#" class="font-semibold hover:text-gray-800">{{$post->user->name}}</a>, Publicado {{ $post->created_at->diffForHumans() }}
                         </p>
-                        <a href="#" class="pb-6">{!! $post->extract !!}</a>
-                        <a href="{{route('posts.show', $post)}}" class="uppercase text-gray-800 hover:text-black">Continue Reading <i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="pb-5">{!! $post->extract !!}</a>
+                        <a href="{{route('posts.show', $post)}}" class="uppercase text-gray-800 hover:text-black">Sigue leyendo... <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </article>
 
