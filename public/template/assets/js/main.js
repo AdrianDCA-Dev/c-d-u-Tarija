@@ -313,20 +313,11 @@
 
         grabCursor: true,
         centeredSlides: true,
-        slidesPerView: 1,
-        spaceBetween: 20,
+        slidesPerView: 'auto',
         breakpoints: {
-            640: {
-                slidesPerView: 1,
-                spaceBetween: 30,
-            },
-            768: {
+            320: {
                 slidesPerView: 2,
-                spaceBetween: 40,
-            },
-            1024: {
-                slidesPerView: 3,
-                spaceBetween: 50,
+                spaceBetween: 20
             },
         },
         coverflowEffect: {

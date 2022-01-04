@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>CDU | Tarija</title>
+    <title>CDU Tarija</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -110,7 +110,7 @@
 
             <header class="section-header">
                 <h3>SOBRE NOSOTROS</h3>
-                <p>Dr. Danilo Jurado Vallejo, Soy una persona que ama su trabajo y por lo tanto dedica toda su energía a realizarlo con el mayor cuidado y atención a los detalles, me enorgullece decir que mis pacientes confían en mi y que llegué a este punto de mi vida gracias a ellos y esa misma confianza que han depositado en mi persona.</p>
+                <p>Somos CDUTarija, la institución médica privada, pionera e innovadora de Bolivia y la región, especializada en todas las afecciones de la urología. A la vanguardia en tecnología de punta, contamos con un equipo de profesionales de excelencia, reconocidos a nivel mundial, en los que los pacientes confían y descansan.</p>
             </header>
 
             <div class="row about-cols">
@@ -123,7 +123,7 @@
                         </div>
                         <h2 class="title"><a href="#">Nuestra misión</a></h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            La comunidad médica de CDU tiene como foco principal la salud y el bienestar de sus pacientes. Todos y cada uno de sus miembros asumen el compromiso de trabajar fuertemente en el tratamiento de la salud y las patologías urológicas, invirtiendo constantemente en prácticas innovadoras que garantizan la excelencia médica de primer nivel.
                         </p>
                     </div>
                 </div>
@@ -134,9 +134,14 @@
                             <img src="template/assets/img/about-plan.jpg" alt="" class="img-fluid">
                             <div class="icon"><i class="bi bi-brightness-high"></i></div>
                         </div>
-                        <h2 class="title"><a href="#">Nuestro pl</a></h2>
+                        <h2 class="title"><a href="#">Valores</a></h2>
                         <p>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            			Calidad y excelencia médica
+                            ,			Vanguardia tecnológica
+                            ,			Seriedad y confianza
+                            ,			Trabajo en equipo
+                            ,			Actividad científica
+                            ,			Respaldo académico.
                         </p>
                     </div>
                 </div>
@@ -149,7 +154,7 @@
                         </div>
                         <h2 class="title"><a href="#">Nuestra visión</a></h2>
                         <p>
-                            Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                            Trabajamos para ser la plataforma de servicios médicos urológicos de excelencia donde todas las personas puedan acceder a información, diagnóstico, orientación y tratamiento de la salud y las patologías urológicas, integrando a los mejores profesionales médicos y académicos de la comunidad científica.
                         </p>
                     </div>
                 </div>
@@ -299,7 +304,7 @@
 
             <header class="section-header">
                 <h3 class="section-title">BLOG</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                <p>Aquí podrás encontrar algunas explicaciones sobre las diferentes enfermedades y sus tratamientos.</p>
             </header>
 
             <div class="blogs-slider swiper">
@@ -314,8 +319,8 @@
                                             <img src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_960_720.jpg" class="img-fluid" alt="">
                                         @endif
                                     </div>
-                                    <h3><a href="{{route('posts.show', $post)}}" class="mt-2 text-danger">{{$post->name}}</a></h3>
-                                    <p class="text-secondary">{!! $post->extract > 230 ? substr($post->extract, 0, 230) . '...' : $post->extract !!} </p>
+                                    <h3><a href="{{route('posts.show', $post)}}" class="mt-2 text-danger">{{$post->name > 100 ? substr($post->name, 0, 50) . '...' : $post->name}}</a></h3>
+                                    <p class="text-secondary">{!! $post->extract > 250 ? substr($post->extract, 0, 150) . '...' : $post->extract !!} </p>
                                     <a href="{{route('posts.show', $post)}}" class="btn btn-sm btn-danger float-right">Leer mas >></a>
                                 </div>
                     </div>
@@ -414,15 +419,15 @@
     <section id="team">
         <div class="container" data-aos="fade-up">
             <div class="section-header">
-                <h3>Equipo</h3>
-                <p>Nuestros Mejores Especialistas</p>
+                <h3>RECOMENDACIONES</h3>
+                <p>Por Nuestros Mejores Especialistas</p>
             </div>
 
             <div class="row">
 
                 <div class="col-lg-3 col-md-6">
                     <div class="member" data-aos="fade-up" data-aos-delay="100">
-                        <img src="template/assets/img/team-1.jpg" class="img-fluid" alt="">
+                        <img src="template/assets/img/team-1.png" class="img-fluid" alt="">
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>Walter White</h4>
@@ -440,7 +445,7 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="member" data-aos="fade-up" data-aos-delay="200">
-                        <img src="template/assets/img/team-2.jpg" class="img-fluid" alt="">
+                        <img src="template/assets/img/team-2.png" class="img-fluid" alt="">
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>Sarah Jhonson</h4>
@@ -458,7 +463,7 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="member" data-aos="fade-up" data-aos-delay="300">
-                        <img src="template/assets/img/team-3.jpg" class="img-fluid" alt="">
+                        <img src="template/assets/img/team-3.png" class="img-fluid" alt="">
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>William Anderson</h4>
@@ -476,7 +481,7 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="member" data-aos="fade-up" data-aos-delay="400">
-                        <img src="template/assets/img/team-4.jpg" class="img-fluid" alt="">
+                        <img src="template/assets/img/team-4.png" class="img-fluid" alt="">
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>Amanda Jepson</h4>
@@ -647,5 +652,4 @@
 <script src="{{asset('template/assets/js/main.js')}}"></script>
 
 </body>
-
 </html>
